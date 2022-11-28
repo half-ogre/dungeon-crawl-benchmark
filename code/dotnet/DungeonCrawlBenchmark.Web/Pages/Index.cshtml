@@ -1,7 +1,5 @@
 ﻿@page
 @model DungeonCrawlBenchmark.Web.IndexModel
-@{
-}
 <!doctype html>
 <html>
 <head>
@@ -11,7 +9,10 @@
 </head>
 <body>
   <h1 class="text-3xl font-bold underline">
-    Hello, World!
+    Half-Ogre's Dungeon Crawl
   </h1>
+  <p class="m-1">
+    <b>Acess Token: </b>@Model.AccessToken
+  </p>
 </body>
 </html>
